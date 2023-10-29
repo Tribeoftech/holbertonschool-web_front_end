@@ -1,0 +1,66 @@
+element.style {
+}
+@media screen and (max-width: 479px)
+.section.hero {
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+@media screen and (max-width: 991px)
+.section.hero {
+    padding-top: 96px;
+}
+.section.hero {
+    background-color: #f9f9f9;
+    padding: 140px 0 0;
+    position: relative;
+}
+@media screen and (max-width: 767px)
+.hero {
+    padding: 40px 20px;
+}
+.hero {
+    background-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: block;
+}
+.section {
+    background-color: #fff;
+    padding: 96px 20px;
+    transition: box-shadow .3s;
+    position: static;
+}
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    color: #292728;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 20px;
+}
+body {
+    min-height: 100%;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: sans-serif;
+}
+::selection {
+    color: #252a34;
+    background: #ffebf0;
+}

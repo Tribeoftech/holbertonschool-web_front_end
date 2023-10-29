@@ -1,0 +1,17 @@
+@mixin alterBody() {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+  
+@mixin alterDiv() {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+body {
+    @include alterBody();
+}
+
+div {
+    @include alterDiv();
+}
