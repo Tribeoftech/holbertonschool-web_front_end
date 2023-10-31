@@ -1,100 +1,27 @@
-# Learning Bootstrap, a free and open source front end development framework.  
 
-> Quick note: For nearly every task of this project, we are given HTML files that are rather lengthy, and I am not able to find a way to share the code given to us using Markdown. Instead of laying out the directions that are given to us per task, I will provide a brief description of what each task is asking us to do later in this README instead.  
+Bootstrap Introduction and Project
 
-## Resources  
-- [Bootstrap](https://intranet.hbtn.io/rltoken/II-u9lliwceVN22GaMLfmA)  
-  
-## Learning Objectives
-At the end of this project, you are expected to be able to [explain to anyone](https://intranet.hbtn.io/rltoken/v8AsBqDPcmZA5MKRkNRJRg), **without the help of Google:**  
-- Usage of Containers  
-- Usage of the Grid system  
-- Usage of Components  
-- Usage of Utilities  
-  
-## Requirements  
-- A ```README.md``` file, at the root of the folder of the project, is mandatory  
-- Use Bootstrap version ```4.4.1```  
-  
+What is Bootstrap?
 
-## Use the CDN version  
-Add this ```<link>``` in the ```<head>``` part of your HTML file:  
-  
-```<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">```  
-  
-## Task 0: Reboot styling  
-In this task, we are given an HTML file and are asked to rewrite the styling using Bootstrap. 
-   
-![task0](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/task0.jpg)  
+Bootstrap is a free and open-source CSS framework for developing responsive, mobile-first websites. It includes HTML, CSS, and JavaScript components for typography, navigation, forms, buttons, modals, and more. Bootstrap is one of the most popular front-end development frameworks in the world, and it is used by millions of developers to create websites and web applications.
 
-## Task 1: Blocks  
-**Requirements:**  
-- You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes  
-- You can not change the HTML structure - only adding classes is allowed  
-  
-This task provides us with an HTML file that renders several different containers. The task asks us to implement Bootstrap so that when we lower the width of our device, the containers react and are placed per the tasks restrictions and requirements.  
-  
-![task1](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/task1.gif)  
+Getting Started with Bootstrap
 
-## Task 2: Table of chemical elements  
-**Requirements:**  
-- You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes  
-- You can not change the HTML structure - only adding classes is allowed  
-  
-This task provides us with an HTML file that renders a table of chemical elements. All the tasks has us do is implement Bootstrap so that the rendered table scales sufficiently to the device size selected.  
-  
-![task2](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/task2.png)  
-  
-![task2.2](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/task2.2.gif)  
-  
-## Task 3: Cards  
-**Requirements:**  
-- You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes  
-- You can not change the HTML structure - only adding classes is allowed  
+To get started with Bootstrap, you can add the Bootstrap CSS and JavaScript files to your HTML page. You can download these files from the Bootstrap website or use a content delivery network (CDN) such as Google Hosted Libraries.
 
-This task provides us with a raw html file and has us implement bootstrap classes to position all of the divs correctly. This task also introduces us to JS modals!  
-  
-![card1](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/card1.png)  
-  
-![card2](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/card2.png)  
-  
-![card3](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/card3.gif)  
-  
-## Task 4: Bob Dylan  
-**Requirements:**  
-- You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes  
-- You can not change the HTML structure - only adding classes is allowed
-  
-This task provides us with another raw html file and has us implement more bootstrap classes. The tasks are starting to give us **LITTLE TO NO DIRECTION**, so from what I can see, this task will have us working with drop down links/menus. Basically, all I have to go off of are these jpgs and gifs :)  
-  
-![bd1](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/bd1.png)  
-  
-![bd2](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/bd2.png)  
-  
-![bd3](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/bd3.png)  
-  
-![bd4](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/bd4.gif)  
-  
-## Task 5: Show/Hide - screen size  
-**Requirements:**  
-- You are not allow to define any styling in a CSS file, in head or inline - only Bootstrap classes  
-- You can not change the HTML structure - only adding classes is allowed  
-  
-This task gives us a very short HTML file being only around 20 lines long. The goal of this task is to learn how to display/hide divs and text at certain breakpoints. This tasks also touches a little more on changing the width of containers at certain breakpoints, too.  
-  
-![d](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/d.gif)  
-  
-## Task 6: Overwrite CSS  
-Create the custom stylesheet ```6-styles.css``` to match this layout.  
-  
-![61](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/61.png)  
-  
-![62](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/62.png)  
-  
-![63](https://github.com/tayloradam1999/holbertonschool-web_front_end/blob/main/0x00-Bootstrap/readme_assets/63.gif)  
-  
-**Requirements:**  
-- You are not allow to define any styling in the head or inline of the HTML
-- You can not change the HTML
-  
-This task gives us a template found on [getbootstrap.com](https://getbootstrap.com/) and asks us to make some changes **ONLY** using CSS to their liking. Nothing more than some background, text, and border color changes are made on this task. 
+Once you have added the Bootstrap files to your HTML page, you can start using Bootstrap components to build your website. For example, to create a button, you can use the following HTML:
+
+HTML
+<button type="button" class="btn btn-primary">Button</button>
+Use code with caution. Learn more
+This will create a blue button with the text "Button". You can also customize the button's appearance by adding additional CSS classes.
+
+This Project
+
+This project is a simple introduction to Bootstrap. It includes a number of Bootstrap components, such as a navigation bar, a hero unit, and a carousel. The project also includes a CSS file that styles the Bootstrap components.
+
+How to Use This Project
+
+To use this project, you can clone the repository to your local machine. Then, open the index.html file in a web browser. You should see a simple website with a navigation bar, a hero unit, and a carousel.
+
+You can customize the website by editing the index.html and style.css files. For example, you can change the text of the navigation bar items, the image in the hero unit, and the colors of the carousel.
