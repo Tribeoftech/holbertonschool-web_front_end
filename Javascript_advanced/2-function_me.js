@@ -2,7 +2,7 @@ function createClassRoom(numberOfStudents);
     function studentSeat(seat) {
       return () => {
         return seat;
-      };
+     
     }
     let students = [];
     for (let i = 0; i < numbersOfStudents; i++) {
