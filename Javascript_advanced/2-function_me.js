@@ -1,15 +1,8 @@
-function createClassRoom(numbersOfStudents) {
-    function studentSeat(seat) {
-      return () => {
-        return seat;
-      };
-    }
-    let students = [];
-    for (let i = 0; i < numbersOfStudents; i++) {
-      let students_seats = studentSeat(i + 1);
-      students[i] = students_seats;
-    }
-    return students;
-  }
-  
-  classRoom = createClassRoom(10);
+function welcomeMessage(fullName) {
+  return () => {
+    alert(`Welcome ${fullName}`);
+  };
+}
+let guillaume = welcomeMessage("Guillaume");
+let alex = welcomeMessage("Alex");
+let fred = welcomeMessage("Fred");
