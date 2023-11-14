@@ -1,12 +1,9 @@
+Javascript Advanced
+
 [JAVASCRIPT](https://www.javascript.com/) ADVANCED
-Project badge
-JavaScript advanced
- Master
- By: Johann Kerbrat, Engineering Manager at Uber Works
- Weight: 1
- Manual QA review must be done (request it when you are done with the project)
-Resources
-Read or watch:
+JavaScript Advanced
+
+Javascript Advanced
 
 Lexical scoping
 Closure
